@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.page{
+    display: flex;
+    width: 100vw;
+    position: relative;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    word-spacing: 2px;
+}
+p{
+    /* font-size: large; */
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-weight: lighter;
+    font-family: 'Scope One';
+
+}
+h1 {
+    font-family: 'Scope One';
+
+}
+.change{
+    border-radius: 50%;
+    border-style: none;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(110, 168, 156);
+    box-shadow: none;
+    transition-duration:0.4s ;
+}
+.change:hover{
+    border-color: rgb(155, 209, 197);
+    background-color: rgb(222, 252, 245);
+
+}
+.icon{
+    margin-top:-28px;
+    margin-right:100%;
+    
+}
+
+.scroll{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    width: -moz-fit-content;
+    width: fit-content;
+    transition: 3s ease;
+    margin-top: 10px;
+}
+aside{
+    /* padding: 20px; */
+    display: flex;
+}
+.TextContent{
+    padding: 20px;
+    line-height: 27px;
+}
+
+.text {
+    line-height: 27px;
+}
+aside *{
+    margin-bottom: 5px;
+}
+
+aside img{
+    width: 40%;
+}
+
+.ScrollBTNs{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 2;
+    /* top: 0; */
+}
+
+#Left{
+    background-color: black;
+}
+
+.ScrollBTNsToRight{
+    transform: translateX(190vw);
+}
+.ScrollDIVToRight{
+    transform: translateX(-100vw);
+}
+.choice1{
+    display: flex;
+    margin-top:20px;
+    font-family: 'Scope One';
+    gap:11em;
+    height: 500px;
+    width:80em;
+    }
+    .choice1 img{
+        margin-left: 20%;;
+    }
+    #button{
+        border-style: hidden;
+        background-color:#0b2d39;
+        width: 100px;
+        height: 30px;
+        color: white;
+        border-radius: 10%;
+        padding: 20px ;
+    }
+   #aside{
+        display: block;
+        margin-left: 100px;
+    }
+    nav {
+        color:white;
+        text-decoration: none;
+        font-size: large;
+        font-family: 'Scope One';
+        background-color: #0b2d39;
+        height: 55px;
+        width:100%;
+        text-align:center;
+        word-spacing: 30px;
+        padding-top:10px;
+        margin-top: 0;
+        display: flex;
+    
+    
+    }
+    .navigation{
+        margin-left: 500px;
+    }
+    
+    nav a:hover{
+        color: #46849b;
+        transition: 1s;
+    }
+    .menu-logo{
+        margin-left: 30%;
+    }
+    .menu-logo{
+    margin-left: 30%;
+}
+
